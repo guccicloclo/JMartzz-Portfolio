@@ -1,0 +1,117 @@
+@use '../../styles/mixins' as *;
+
+.gallery {
+  &__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-5);
+  }
+
+  &__filter {
+    padding: 0.55rem 1.2rem;
+    min-height: 44px;
+    background: transparent;
+    border: 2px solid var(--color-line);
+    border-radius: var(--radius);
+    font-family: var(--font-display);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: background 0.2s, border-color 0.2s;
+
+    span[aria-hidden] {
+      margin-left: 0.35rem;
+      color: var(--color-accent-soft);
+      font-size: 0.85em;
+    }
+
+    &:hover {
+      border-color: var(--color-accent-soft);
+    }
+
+    &.is-active {
+      background: var(--color-accent);
+      border-color: var(--color-accent);
+
+      span[aria-hidden] {
+        color: #fff;
+      }
+    }
+  }
+
+  &__grid {
+    columns: 1;
+    column-gap: var(--space-5);
+
+    @include from(600px) {
+      columns: 2;
+    }
+
+    @include from(1000px) {
+      columns: 3;
+    }
+  }
+
+  &__item {
+    break-inside: avoid;
+    margin-bottom: var(--space-5);
+  }
+
+  &__card {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: none;
+    border: 0;
+    text-align: left;
+  }
+
+  &__frame {
+    display: block;
+    overflow: hidden;
+    border: 3px solid var(--color-text);
+    background: var(--color-surface);
+    box-shadow: 6px 6px 0 var(--color-accent);
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+
+    img {
+      transition: transform 0.6s var(--ease), opacity 0.5s;
+    }
+  }
+
+  &__card:hover &__frame,
+  &__card:focus-visible &__frame {
+    transform: translate(-3px, -3px);
+    box-shadow: 10px 10px 0 var(--color-accent-soft);
+
+    img {
+      transform: scale(1.03);
+    }
+  }
+
+  &__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: var(--space-3);
+  }
+
+  &__title {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__tag {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__empty {
+    padding: var(--space-6) 0;
+    color: var(--color-muted);
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "catwoman": {
+    "width": 1242,
+    "height": 2208,
+    "widths": [
+      640,
+      1242
+    ]
+  },
+  "supergirl-lobo-1": {
+    "width": 1512,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1512
+    ]
+  },
+  "supergirl-lobo-2": {
+    "width": 1624,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1624
+    ]
+  },
+  "supergirl-lobo-3": {
+    "width": 1512,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1512
+    ]
+  },
+  "supergirl-lobo-4": {
+    "width": 1512,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1512
+    ]
+  },
+  "flash": {
+    "width": 1242,
+    "height": 2208,
+    "widths": [
+      640,
+      1242
+    ]
+  },
+  "starfire-nightwing": {
+    "width": 1242,
+    "height": 1552,
+    "widths": [
+      640,
+      1242
+    ]
+  },
+  "spiderverse-1": {
+    "width": 1728,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1728
+    ]
+  },
+  "spiderverse-2": {
+    "width": 1728,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1728
+    ]
+  },
+  "spiderverse-3": {
+    "width": 1728,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1728
+    ]
+  },
+  "spiderverse-4": {
+    "width": 1728,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1728
+    ]
+  },
+  "black-cat": {
+    "width": 1728,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1728
+    ]
+  },
+  "magik-danger-1": {
+    "width": 1398,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1398
+    ]
+  },
+  "magik-danger-2": {
+    "width": 1398,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1398
+    ]
+  },
+  "spider-man": {
+    "width": 2160,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      2048
+    ]
+  },
+  "wanda": {
+    "width": 1512,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      1512
+    ]
+  },
+  "jmartzz-portrait": {
+    "width": 2160,
+    "height": 2160,
+    "widths": [
+      640,
+      1280,
+      2048
+    ]
+  }
+}

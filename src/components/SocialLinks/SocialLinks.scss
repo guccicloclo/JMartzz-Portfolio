@@ -1,0 +1,44 @@
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    padding: 0.6rem;
+    color: var(--color-text);
+    border: 1.5px solid var(--color-line);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: color 0.2s, border-color 0.2s, transform 0.2s var(--ease);
+
+    &:hover {
+      color: var(--color-accent-soft);
+      border-color: var(--color-accent-soft);
+      transform: translateY(-2px);
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+    padding-right: var(--space-2);
+  }
+
+  &__label {
+    font-family: var(--font-display);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__handle {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+}

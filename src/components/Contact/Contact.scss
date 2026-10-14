@@ -1,0 +1,13 @@
+@use '../../styles/mixins' as *;
+
+.contact {
+  @include halftone(rgba(167, 139, 250, 0.08), 12px);
+  background-color: var(--color-bg-alt);
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+  }
+}

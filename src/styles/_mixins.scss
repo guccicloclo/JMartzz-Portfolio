@@ -1,0 +1,15 @@
+@mixin halftone($color: rgba(167, 139, 250, 0.16), $size: 9px) {
+  background-image: radial-gradient($color 1.2px, transparent 1.6px);
+  background-size: $size $size;
+}
+
+@mixin container {
+  width: min(100% - 2 * var(--space-4), var(--container));
+  margin-inline: auto;
+}
+
+@mixin from($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
