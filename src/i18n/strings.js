@@ -55,7 +55,7 @@ export const ui = {
     video: {
       kicker: 'En mouvement',
       title: 'La vidéo',
-      intro: "Regarde le travail de JMartzz en vidéo.",
+      intro: "Regarde mon travail en vidéo.",
       play: 'Lire la vidéo',
       playerTitle: 'Vidéo de JMartzz sur YouTube',
       watch: 'Voir sur YouTube',
@@ -131,7 +131,7 @@ export const ui = {
     video: {
       kicker: 'In motion',
       title: 'The video',
-      intro: "Watch JMartzz's work in video.",
+      intro: "Watch my work in video.",
       play: 'Play video',
       playerTitle: 'JMartzz video on YouTube',
       watch: 'Watch on YouTube',
